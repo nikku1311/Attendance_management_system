@@ -14,7 +14,7 @@ function sendAbsentEmail($toEmail, $studentName, $date) {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'rnikitha1311@gmail.com';       // <-- Your Gmail here
-        $mail->Password   = 'fkoy nzcjlwtwwato';          // <-- Your App Password here
+        $mail->Password   = 'yourapppassword';          // <-- Your App Password here
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
